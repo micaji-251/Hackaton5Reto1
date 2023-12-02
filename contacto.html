@@ -28,41 +28,45 @@
 
     <form action="./contacto.html">
 
-        <article>
-            <h3>
-                TUS DATOS
-            </h3>
-            <!-- nombre, asunto, email, telefono y mensaje n big rectangle -->
-        
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" required placeholder="Tu Nombre">
-                </div>
-                <br>
-                <div>
-                    <label for="nombre">Asunto:</label>
-                    <input type="text" id="asunto" required placeholder="Tu Asunto">
-                </div>
-                <br>
-                <div>
-                    <label for="nombre">Email:</label>
-                    <input type="email" id="email" required placeholder="Tu Email">
-                </div>
-                <br>
-                <div>
-                    <label for="nombre">Telefono:</label>
-                    <input type="number" id="telefono" required placeholder="Tu Telefono">
-                </div>
-                <br>
-                <div>
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea name="mensaje" id="mensaje" cols="50" rows="10" required></textarea>
-                </div>
+        <fieldset>
+            <legend>
+                    <h3>
+                    TUS DATOS
+                    </h3>
+            </legend>
+                <!-- nombre, asunto, email, telefono y mensaje n big rectangle -->
+                <!-- etiqueta por aplicar: fieldset y legen-->
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" required placeholder="Tu Nombre">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="nombre">Asunto:</label>
+                        <input type="text" id="asunto" required placeholder="Tu Asunto">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="nombre">Email:</label>
+                        <input type="email" id="email" required placeholder="Tu Email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="nombre">Telefono:</label>
+                        <input type="number" id="telefono" required placeholder="Tu Telefono">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="50" rows="10" required></textarea>
+                    </div>
 
-        </article>
+        </fieldset>
 
-        <article>
-            <h3>PAÍS</h3>
+        <fieldset>
+            <legend>
+                <h3>PAÍS</h3>
+            </legend>
                 <div>
                     <label for="pais">País</label>
                     <select name="pais" id="pais">
@@ -77,37 +81,39 @@
                     </select>
 
                 </div>
-        </article>
+        </fieldset>
 
-        <article>
-            <h3>INFORMACION EXTRA</h3>
-            <div>
-                <label for="cliente">Cliente</label>
-                <input type="radio" name="tipousuario" value="cliente" id="cliente">
+        <fieldset>
+            <legend>
+                <h3>INFORMACION EXTRA</h3>
+            </legend>
+                <div>
+                    <label for="cliente">Cliente</label>
+                    <input type="radio" name="tipousuario" value="cliente" id="cliente">
+                </div>
+
+                <div>
+                    <label for="proveedor">Proveedor</label>
+                    <input type="radio" name="tipousuario" value="proveedor" id="proveedor">
+
+                </div>
+                <br>
+                <div>
+                    <label for="categoriainteres">Categoria de interes:</label>
+                    <select name="categoriainteres" id="categoriainteres">
+                            
+                        <option selected=""></option>
+                        <option value="cocina">Cocina</option>
+                        <option value="exterior">Exterior</option>
+                        <option value="recamaras">Recamaras</option>
+                        <option value="oficina">Oficina</option>
+                        <option value="television">Televisión</option>
+
+                    </select>
+                    
             </div>
 
-            <div>
-                <label for="proveedor">Proveedor</label>
-                <input type="radio" name="tipousuario" value="proveedor" id="proveedor">
-
-            </div>
-            <br>
-            <div>
-                <label for="categoriainteres">Categoria de interes:</label>
-                <select name="categoriainteres" id="categoriainteres">
-                        
-                    <option selected=""></option>
-                    <option value="cocina">Cocina</option>
-                    <option value="exterior">Exterior</option>
-                    <option value="recamaras">Recamaras</option>
-                    <option value="oficina">Oficina</option>
-                    <option value="television">Televisión</option>
-
-                </select>
-                
-            </div>
-
-        </article>
+        </fieldset>
         <br>
         <input type="submit" value="ENVIAR FORMULARIO">
     </form>
