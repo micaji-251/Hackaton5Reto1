@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <h1>
+        Tienda Muebles
+    </h1>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./tienda.html">Tienda</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./galeria.html">Galeria</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+   </header> 
+   <main>
+    <!-- 3 formularios -->
+    <h2>Contacto</h2>
+
+    <form action="./contacto.html">
+
+        <article>
+            <h3>
+                TUS DATOS
+            </h3>
+            <!-- nombre, asunto, email, telefono y mensaje n big rectangle -->
+        
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required placeholder="Tu Nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="nombre">Asunto:</label>
+                    <input type="text" id="asunto" required placeholder="Tu Asunto">
+                </div>
+                <br>
+                <div>
+                    <label for="nombre">Email:</label>
+                    <input type="email" id="email" required placeholder="Tu Email">
+                </div>
+                <br>
+                <div>
+                    <label for="nombre">Telefono:</label>
+                    <input type="number" id="telefono" required placeholder="Tu Telefono">
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="10" required></textarea>
+                </div>
+
+        </article>
+
+        <article>
+            <h3>PAÍS</h3>
+                <div>
+                    <label for="pais">País</label>
+                    <select name="pais" id="pais">
+                        
+                        <option selected="selected">-- Selected--</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="peru">Perú</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="españa">España</option>
+                        <option value="chile">Chile</option>
+                    </select>
+
+                </div>
+        </article>
+
+        <article>
+            <h3>INFORMACION EXTRA</h3>
+            <div>
+                <p>
+                    <input type="radio" name="tipousuario" checked="checked" value="cliente">Cliente
+                    <input type="radio" name="tipousuario" value="proveedor">Proveedor
+                
+                </p>
+            </div>
+            <br>
+            <div>
+                <label for="categoriainteres">Categoria de interes:</label>
+                <textarea name="categoriainteres" id="categoriainteres" cols="50" rows="10" required></textarea>
+            </div>
+
+        </article>
+        <br>
+        <input type="submit" value="ENVIAR FORMULARIO">
+    </form>
+
+   </main>
+
+
+   <footer>
+    <nav>
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="#">Cocina</a></li>
+            <li><a href="#">Oficina</a></li>
+            <li><a href="#">Jardin</a></li>
+            <li><a href="#">Cochera</a></li>
+            <li><a href="#">Dormitorio</a></li>
+        </ul>
+    </nav>
+
+    <nav>
+        <h2>Sobre Nosotros</h2>
+        <ul>
+            <li><a href="#">Nuestra Historia</a></li>
+            <li><a href="#">Mision, visión y Valores</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Politica de Privacidad</a></li>
+            <li><a href="#">Terminos del Servicio</a></li>
+        </ul>
+    </nav>
+
+    <nav>
+        <h2>Soporte</h2>
+        <ul>
+            <li><a href="#">Preguntas Frecuentas</a></li>
+            <li><a href="#">Ayuda en línea</a></li>
+            <li><a href="#">Confianza y seguridad</a></li>
+        </ul>
+    </nav>
+
+   </footer>
+</body>
+</html>
