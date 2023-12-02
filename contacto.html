@@ -67,7 +67,7 @@
                     <label for="pais">País</label>
                     <select name="pais" id="pais">
                         
-                        <option selected="selected">-- Selected--</option>
+                        <option selected="seleccione">-- Seleccione--</option>
                         <option value="mexico">Mexico</option>
                         <option value="peru">Perú</option>
                         <option value="colombia">Colombia</option>
@@ -82,16 +82,29 @@
         <article>
             <h3>INFORMACION EXTRA</h3>
             <div>
-                <p>
-                    <input type="radio" name="tipousuario" checked="checked" value="cliente">Cliente
-                    <input type="radio" name="tipousuario" value="proveedor">Proveedor
-                
-                </p>
+                <label for="cliente">Cliente</label>
+                <input type="radio" name="tipousuario" value="cliente" id="cliente">
+            </div>
+
+            <div>
+                <label for="proveedor">Proveedor</label>
+                <input type="radio" name="tipousuario" value="proveedor" id="proveedor">
+
             </div>
             <br>
             <div>
                 <label for="categoriainteres">Categoria de interes:</label>
-                <textarea name="categoriainteres" id="categoriainteres" cols="50" rows="10" required></textarea>
+                <select name="categoriainteres" id="categoriainteres">
+                        
+                    <option selected=""></option>
+                    <option value="cocina">Cocina</option>
+                    <option value="exterior">Exterior</option>
+                    <option value="recamaras">Recamaras</option>
+                    <option value="oficina">Oficina</option>
+                    <option value="television">Televisión</option>
+
+                </select>
+                
             </div>
 
         </article>
@@ -133,7 +146,7 @@
             <li><a href="#">Confianza y seguridad</a></li>
         </ul>
     </nav>
-
+    <p>Todos los derechos Reservados, TiendaMuebles</p>
    </footer>
 </body>
 </html>
