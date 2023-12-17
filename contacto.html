@@ -4,70 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   <header>
-    <h1>
-        Tienda Muebles
-    </h1>
-
-    <nav>
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./tienda.html">Tienda</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./galeria.html">Galeria</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-   </header> 
-   <main>
+    <header>
+        <h1 class="mainTitle" class="titlespace">
+            Tienda <span class="h1Blue">Muebles</span>
+        </h1>
+    
+        <hr>
+    
+        <nav >
+                <ul class="boxcontainer" class="titlespace">
+                    <li><a class="boxitems" href="./index.html">Inicio</a></li>
+                    <li><a class="boxitems" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="boxitems" href="./tienda.html">Tienda</a></li>
+                    <li><a class="boxitems" href="./blog.html">Blog</a></li>
+                    <li><a class="boxitems" href="./galeria.html">Galeria</a></li>
+                    <li><a class="boxitems" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>    
+       </header> 
+   <main class="cuestionario">
     <!-- 3 formularios -->
-    <h2>Contacto</h2>
+    <h2 class="titlespace">Contacto</h2>
 
     <form action="./contacto.html">
 
         <fieldset>
             <legend>
-                    <h3>
+                    <h3 class="titlecuestionario">
                     TUS DATOS
                     </h3>
             </legend>
                 <!-- nombre, asunto, email, telefono y mensaje n big rectangle -->
                 <!-- etiqueta por aplicar: fieldset y legen-->
-                    <div>
+                    <div class="cuestionariocontainer">
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" required placeholder="Tu Nombre">
                     </div>
-                    <br>
-                    <div>
+                    
+                    <div class="cuestionariocontainer">
                         <label for="nombre">Asunto:</label>
                         <input type="text" id="asunto" required placeholder="Tu Asunto">
                     </div>
-                    <br>
-                    <div>
+                    
+                    <div class="cuestionariocontainer">
                         <label for="nombre">Email:</label>
                         <input type="email" id="email" required placeholder="Tu Email">
                     </div>
-                    <br>
-                    <div>
+                    
+                    <div class="cuestionariocontainer">
                         <label for="nombre">Telefono:</label>
                         <input type="number" id="telefono" required placeholder="Tu Telefono">
                     </div>
-                    <br>
-                    <div>
+                    
+                    <div class="cuestionariocontainer">
                         <label for="mensaje">Mensaje:</label>
-                        <textarea name="mensaje" id="mensaje" cols="50" rows="10" required></textarea>
+                        <textarea name="mensaje" id="mensaje" cols="20" rows="10" required></textarea>
                     </div>
 
         </fieldset>
 
         <fieldset>
             <legend>
-                <h3>PAÍS</h3>
+                <h3 class="titlecuestionario">PAÍS</h3>
             </legend>
-                <div>
+                <div class="cuestionariocontainer">
                     <label for="pais">País</label>
                     <select name="pais" id="pais">
                         
@@ -85,20 +88,20 @@
 
         <fieldset>
             <legend>
-                <h3>INFORMACION EXTRA</h3>
+                <h3 class="titlecuestionario">INFORMACION EXTRA</h3>
             </legend>
-                <div>
+                <div class="cuestionariocontainer">
                     <label for="cliente">Cliente</label>
                     <input type="radio" name="tipousuario" value="cliente" id="cliente">
                 </div>
 
-                <div>
+                <div class="cuestionariocontainer">
                     <label for="proveedor">Proveedor</label>
                     <input type="radio" name="tipousuario" value="proveedor" id="proveedor">
 
                 </div>
-                <br>
-                <div>
+                
+                <div class="cuestionariocontainer">
                     <label for="categoriainteres">Categoria de interes:</label>
                     <select name="categoriainteres" id="categoriainteres">
                             
@@ -114,45 +117,50 @@
             </div>
 
         </fieldset>
-        <br>
-        <input type="submit" value="ENVIAR FORMULARIO">
+        
+        <input type="submit" value="ENVIAR FORMULARIO" class="agregarcarrito">
     </form>
 
    </main>
 
 
    <footer>
-    <nav>
-        <h2>Categorías</h2>
-        <ul>
-            <li><a href="#">Cocina</a></li>
-            <li><a href="#">Oficina</a></li>
-            <li><a href="#">Jardin</a></li>
-            <li><a href="#">Cochera</a></li>
-            <li><a href="#">Dormitorio</a></li>
-        </ul>
-    </nav>
 
-    <nav>
-        <h2>Sobre Nosotros</h2>
-        <ul>
-            <li><a href="#">Nuestra Historia</a></li>
-            <li><a href="#">Mision, visión y Valores</a></li>
-            <li><a href="#">Carreras</a></li>
-            <li><a href="#">Politica de Privacidad</a></li>
-            <li><a href="#">Terminos del Servicio</a></li>
-        </ul>
-    </nav>
+    <div class="footernav">
+        <nav>
+            <h2>Categorías</h2>
+            <ul>
+                <li><a href="#">Cocina</a></li>
+                <li><a href="#">Oficina</a></li>
+                <li><a href="#">Jardin</a></li>
+                <li><a href="#">Cochera</a></li>
+                <li><a href="#">Dormitorio</a></li>
+            </ul>
+        </nav>
 
-    <nav>
-        <h2>Soporte</h2>
-        <ul>
-            <li><a href="#">Preguntas Frecuentas</a></li>
-            <li><a href="#">Ayuda en línea</a></li>
-            <li><a href="#">Confianza y seguridad</a></li>
-        </ul>
-    </nav>
-    <p>Todos los derechos Reservados, TiendaMuebles</p>
-   </footer>
+        <nav>
+            <h2>Sobre Nosotros</h2>
+            <ul>
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">Mision, visión y Valores</a></li>
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Politica de Privacidad</a></li>
+                <li><a href="#">Terminos del Servicio</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <h2>Soporte</h2>
+            <ul>
+                <li><a href="#">Preguntas Frecuentas</a></li>
+                <li><a href="#">Ayuda en línea</a></li>
+                <li><a href="#">Confianza y seguridad</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+<p class="derechos">Todos los derechos Reservados, TiendaMuebles</p>
+</footer>
 </body>
 </html>

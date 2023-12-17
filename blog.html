@@ -4,144 +4,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   <header>
-    <h1>
-        Tienda Muebles
-    </h1>
-
-    <nav>
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./tienda.html">Tienda</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./galeria.html">Galeria</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-   </header> 
-
-   <main>
-    <h2>Nuestro Blog</h2>
-    <section>
-        <!-- Blog entries -->
-
-        <article>
-            <h3>Guia de Colores</h3>
-            <img src="./img/nosotros.jpg" alt="muebles amarillos">
-
-            <div>
-                <div>
-                    <p>
-                        Fecha: 
-                        <span>22 de Octubre de 2022</span>
-                    </p>
-
-                    <p>
-                        Escrito por: 
-                        <span>Tienda Muebles</span>
-
-                    </p>
-
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quibusdam odio nulla non quia. Et neque eaque corporis voluptate, placeat vero reiciendis molestiae, deleniti libero impedit cum voluptas accusamus aliquam.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ex repellendus magni? A, commodi, hic voluptas dolores nesciunt, odio veritatis ut iusto iste velit laborum itaque libero nisi quidem quod.
-
-                </p>
-
-                
-                <button><a href="#">LEER</a></button>
-
-            </div>
-        </article>
-
-        <article>
-            <h3>Guia de Colores</h3>
-            <img src="./img/nosotros.jpg" alt="muebles amarillos">
-
-            <div>
-                <div>
-                    <p>
-                        Fecha: 
-                        <span>22 de Octubre de 2022</span>
-                    </p>
-
-                    <p>
-                        Escrito por: 
-                        <span>Tienda Muebles</span>
-
-                    </p>
-                    
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quibusdam odio nulla non quia. Et neque eaque corporis voluptate, placeat vero reiciendis molestiae, deleniti libero impedit cum voluptas accusamus aliquam.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ex repellendus magni? A, commodi, hic voluptas dolores nesciunt, odio veritatis ut iusto iste velit laborum itaque libero nisi quidem quod.
-
-                </p>
-
-                
-                <button><a href="#">LEER</a></button>
-
-            </div>
-        </article>
-    </section>
-
-    <section>
-        <!-- Otras entradas -->
-
-        <ol>
-            <li><a href="#">Guia de Colores</a></li>
-            <li><a href="#">Nuevos Modelos</a></li>
-            <li><a href="#">Guia para diseño de interiores</a></li>
-            <li><a href="#">Guia para diseño de exteriores</a></li>
-
-        </ol>
-    </section>
+    <header>
+        <h1 class="mainTitle" class="titlespace">
+            Tienda <span class="h1Blue">Muebles</span>
+        </h1>
     
+        <hr>
+    
+        <nav >
+                <ul class="boxcontainer" class="titlespace">
+                    <li><a class="boxitems" href="./index.html">Inicio</a></li>
+                    <li><a class="boxitems" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="boxitems" href="./tienda.html">Tienda</a></li>
+                    <li><a class="boxitems" href="./blog.html">Blog</a></li>
+                    <li><a class="boxitems" href="./galeria.html">Galeria</a></li>
+                    <li><a class="boxitems" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>    
+       </header> 
+
+   <main class="blog">
+
+
+    <h2 class="titlespace">Nuestro Blog</h2>
+
+    <div class="blogsection1">
+        <section class="blogsection2">
+            <!-- Blog entries -->
+
+            <article>
+                <h3>Guia de Colores</h3>
+                <img src="./img/nosotros.jpg" alt="muebles amarillos">
+
+                <div class="textblog">
+                    <div class="textfechaescritor">
+                        <p>
+                            Fecha: 
+                            <span>22 de Octubre de 2022</span>
+                        </p>
+
+                        <p>
+                            Escrito por: 
+                            <span>Tienda Muebles</span>
+
+                        </p>
+
+                    </div>
+
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quibusdam odio nulla non quia. Et neque eaque corporis voluptate, placeat vero reiciendis molestiae, deleniti libero impedit cum voluptas accusamus aliquam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ex repellendus magni? A, commodi, hic voluptas dolores nesciunt, odio veritatis ut iusto iste velit laborum itaque libero nisi quidem quod.
+
+                        </p>
+
+                        
+                        <button class="agregarcarrito"><a href="#">LEER</a></button>
+
+                </div>
+            </article>
+
+            <article>
+                <h3>Guia de Colores</h3>
+                <img src="./img/nosotros.jpg" alt="muebles amarillos">
+
+                <div class="textblog">
+                    <div class="textfechaescritor">
+                        <p>
+                            Fecha: 
+                            <span>22 de Octubre de 2022</span>
+                        </p>
+
+                        <p>
+                            Escrito por: 
+                            <span>Tienda Muebles</span>
+
+                        </p>
+                        
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quibusdam odio nulla non quia. Et neque eaque corporis voluptate, placeat vero reiciendis molestiae, deleniti libero impedit cum voluptas accusamus aliquam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ex repellendus magni? A, commodi, hic voluptas dolores nesciunt, odio veritatis ut iusto iste velit laborum itaque libero nisi quidem quod.
+
+                    </p>
+
+                    
+                    <button class="agregarcarrito"><a href="#">LEER</a></button>
+
+                </div>
+            </article>
+        </section>
+
+        <section class="otrosblog">
+            <!-- Otras entradas -->
+            <h3>Otras Entradas de Blog</h3>
+            <ol>
+                <li><a href="#">Guia de Colores</a></li>
+                <li><a href="#">Nuevos Modelos</a></li>
+                <li><a href="#">Guia para diseño de interiores</a></li>
+                <li><a href="#">Guia para diseño de exteriores</a></li>
+
+            </ol>
+        </section>
+
+    </div>
+
    </main>
 
 
    <footer>
-    <nav>
-        <h2>Categorías</h2>
-        <ul>
-            <li><a href="#">Cocina</a></li>
-            <li><a href="#">Oficina</a></li>
-            <li><a href="#">Jardin</a></li>
-            <li><a href="#">Cochera</a></li>
-            <li><a href="#">Dormitorio</a></li>
-        </ul>
-    </nav>
 
-    <nav>
-        <h2>Sobre Nosotros</h2>
-        <ul>
-            <li><a href="#">Nuestra Historia</a></li>
-            <li><a href="#">Mision, visión y Valores</a></li>
-            <li><a href="#">Carreras</a></li>
-            <li><a href="#">Politica de Privacidad</a></li>
-            <li><a href="#">Terminos del Servicio</a></li>
-        </ul>
-    </nav>
+        <div class="footernav">
+            <nav>
+                <h2>Categorías</h2>
+                <ul>
+                    <li><a href="#">Cocina</a></li>
+                    <li><a href="#">Oficina</a></li>
+                    <li><a href="#">Jardin</a></li>
+                    <li><a href="#">Cochera</a></li>
+                    <li><a href="#">Dormitorio</a></li>
+                </ul>
+            </nav>
 
-    <nav>
-        <h2>Soporte</h2>
-        <ul>
-            <li><a href="#">Preguntas Frecuentas</a></li>
-            <li><a href="#">Ayuda en línea</a></li>
-            <li><a href="#">Confianza y seguridad</a></li>
-        </ul>
-    </nav>
-    <p>Todos los derechos Reservados, TiendaMuebles</p>
-   </footer>
+            <nav>
+                <h2>Sobre Nosotros</h2>
+                <ul>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Mision, visión y Valores</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Politica de Privacidad</a></li>
+                    <li><a href="#">Terminos del Servicio</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h2>Soporte</h2>
+                <ul>
+                    <li><a href="#">Preguntas Frecuentas</a></li>
+                    <li><a href="#">Ayuda en línea</a></li>
+                    <li><a href="#">Confianza y seguridad</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <p class="derechos">Todos los derechos Reservados, TiendaMuebles</p>
+    </footer>
 </body>
 </html>

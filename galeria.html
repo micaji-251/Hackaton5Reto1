@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   <header>
-    <h1>
-        Tienda Muebles
-    </h1>
-
-    <nav>
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./tienda.html">Tienda</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./galeria.html">Galeria</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-   </header> 
+    <header>
+        <h1 class="mainTitle" class="titlespace">
+            Tienda <span class="h1Blue">Muebles</span>
+        </h1>
+    
+        <hr>
+    
+        <nav >
+                <ul class="boxcontainer" class="titlespace">
+                    <li><a class="boxitems" href="./index.html">Inicio</a></li>
+                    <li><a class="boxitems" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="boxitems" href="./tienda.html">Tienda</a></li>
+                    <li><a class="boxitems" href="./blog.html">Blog</a></li>
+                    <li><a class="boxitems" href="./galeria.html">Galeria</a></li>
+                    <li><a class="boxitems" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>    
+       </header>  
    <main>
 
-    <h2>Galería</h2>
+    <h2 class="titlespace">Galería</h2>
 
-        <div>
+        <div class="galeriacontainer">
             <img src="./img/galeria_01.jpg" alt="Cama blanca">
             <img src="./img/galeria_02.jpg" alt="Velador con lampara">
             <img src="./img/galeria_03.jpg" alt="Cama blanca">
@@ -44,39 +47,43 @@
 
 
    <footer>
-    <nav>
-        <h2>Categorías</h2>
-        <ul>
-            <li><a href="#">Cocina</a></li>
-            <li><a href="#">Oficina</a></li>
-            <li><a href="#">Jardin</a></li>
-            <li><a href="#">Cochera</a></li>
-            <li><a href="#">Dormitorio</a></li>
-        </ul>
-    </nav>
 
-    <nav>
-        <h2>Sobre Nosotros</h2>
-        <ul>
-            <li><a href="#">Nuestra Historia</a></li>
-            <li><a href="#">Mision, visión y Valores</a></li>
-            <li><a href="#">Carreras</a></li>
-            <li><a href="#">Politica de Privacidad</a></li>
-            <li><a href="#">Terminos del Servicio</a></li>
-        </ul>
-    </nav>
+    <div class="footernav">
+        <nav>
+            <h2>Categorías</h2>
+            <ul>
+                <li><a href="#">Cocina</a></li>
+                <li><a href="#">Oficina</a></li>
+                <li><a href="#">Jardin</a></li>
+                <li><a href="#">Cochera</a></li>
+                <li><a href="#">Dormitorio</a></li>
+            </ul>
+        </nav>
 
-    <nav>
-        <h2>Soporte</h2>
-        <ul>
-            <li><a href="#">Preguntas Frecuentas</a></li>
-            <li><a href="#">Ayuda en línea</a></li>
-            <li><a href="#">Confianza y seguridad</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <h2>Sobre Nosotros</h2>
+            <ul>
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">Mision, visión y Valores</a></li>
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Politica de Privacidad</a></li>
+                <li><a href="#">Terminos del Servicio</a></li>
+            </ul>
+        </nav>
 
-    <p>Todos los derechos Reservados, TiendaMuebles</p>
+        <nav>
+            <h2>Soporte</h2>
+            <ul>
+                <li><a href="#">Preguntas Frecuentas</a></li>
+                <li><a href="#">Ayuda en línea</a></li>
+                <li><a href="#">Confianza y seguridad</a></li>
+            </ul>
+        </nav>
 
-   </footer>
+    </div>
+
+        <p class="derechos">Todos los derechos Reservados, TiendaMuebles</p>
+    </footer>
+    
 </body>
 </html>

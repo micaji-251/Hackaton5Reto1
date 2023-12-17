@@ -4,72 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   <header>
-        <h1>
-            Tienda Muebles
+    <header>
+        <h1 class="mainTitle" class="titlespace">
+            Tienda <span class="h1Blue">Muebles</span>
         </h1>
+    
+        <hr>
+    
+        <nav >
+                <ul class="boxcontainer" class="titlespace">
+                    <li><a class="boxitems" href="./index.html">Inicio</a></li>
+                    <li><a class="boxitems" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="boxitems" href="./tienda.html">Tienda</a></li>
+                    <li><a class="boxitems" href="./blog.html">Blog</a></li>
+                    <li><a class="boxitems" href="./galeria.html">Galeria</a></li>
+                    <li><a class="boxitems" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>    
+       </header> 
 
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-   </header> 
+    <main>
 
-   <main>
-        <h2>Sobre Nosotros</h2>
-        <img src="./img/nosotros.jpg" alt="Nosotros mueble">
+        <h2 class="titlespace">Sobre Nosotros</h2>
 
-        <div>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum eos ex eligendi soluta sit asperiores temporibus necessitatibus earum iusto. Omnis doloribus eum temporibus fugit neque velit deserunt? Sunt, recusandae aliquam.
-            </p>
+        <section class=" nosotros nosotros2">
+
+            
+            <img src="./img/nosotros.jpg" alt="Nosotros mueble" >
+            
+            <div >
+                
+                <p>  
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum eos ex eligendi soluta sit asperiores temporibus necessitatibus earum iusto. Omnis doloribus eum temporibus fugit neque velit deserunt? Sunt, recusandae aliquam.
+                </p>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur dolorum aut, quisquam doloribus, ab pariatur quis omnis eaque at et aspernatur sapiente asperiores, vero placeat impedit veritatis repudiandae. Pariatur, earum?</p>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+
+        <div class="footernav">
+            <nav>
+                <h2>Categorías</h2>
+                <ul>
+                    <li><a href="#">Cocina</a></li>
+                    <li><a href="#">Oficina</a></li>
+                    <li><a href="#">Jardin</a></li>
+                    <li><a href="#">Cochera</a></li>
+                    <li><a href="#">Dormitorio</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h2>Sobre Nosotros</h2>
+                <ul>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Mision, visión y Valores</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Politica de Privacidad</a></li>
+                    <li><a href="#">Terminos del Servicio</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <h2>Soporte</h2>
+                <ul>
+                    <li><a href="#">Preguntas Frecuentas</a></li>
+                    <li><a href="#">Ayuda en línea</a></li>
+                    <li><a href="#">Confianza y seguridad</a></li>
+                </ul>
+            </nav>
+
         </div>
 
-        <br>
-
-   </main>
-
-
-   <footer>
-    <nav>
-        <h2>Categorías</h2>
-        <ul>
-            <li><a href="#">Cocina</a></li>
-            <li><a href="#">Oficina</a></li>
-            <li><a href="#">Jardin</a></li>
-            <li><a href="#">Cochera</a></li>
-            <li><a href="#">Dormitorio</a></li>
-        </ul>
-    </nav>
-
-    <nav>
-        <h2>Sobre Nosotros</h2>
-        <ul>
-            <li><a href="#">Nuestra Historia</a></li>
-            <li><a href="#">Mision, visión y Valores</a></li>
-            <li><a href="#">Carreras</a></li>
-            <li><a href="#">Politica de Privacidad</a></li>
-            <li><a href="#">Terminos del Servicio</a></li>
-        </ul>
-    </nav>
-
-    <nav>
-        <h2>Soporte</h2>
-        <ul>
-            <li><a href="#">Preguntas Frecuentas</a></li>
-            <li><a href="#">Ayuda en línea</a></li>
-            <li><a href="#">Confianza y seguridad</a></li>
-        </ul>
-    </nav>
-    <p>Todos los derechos Reservados, TiendaMuebles</p>
+    <p class="derechos">Todos los derechos Reservados, TiendaMuebles</p>
    </footer>
 </body>
 </html>
